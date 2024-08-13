@@ -218,6 +218,16 @@ public class Robot extends TimedRobot {
   @Override
   public void simulationPeriodic() {}
 
+  public void functSmartDashboard(String palabra){
+
+    SmartDashboard.putString("My Name", palabra);
+    SmartDashboard.putString("My Team Num", palabra);
+    SmartDashboard.putString("My Age", palabra);
+    SmartDashboard.putString("Robot Name", palabra);
+    
+  }
+
+
   /**
    * @return 
    * @param position
