@@ -235,8 +235,8 @@ public class Robot extends TimedRobot {
 
 
   /**
-   * @return 
-   * @param position
+   * @return Esta función te permite establecer el pivoteo en la posición que necesitas
+   * @param position Es el número de la posición en la que quieres que este el pivoteo
    */
   public void goToPosition(int position){
 
