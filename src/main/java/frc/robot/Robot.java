@@ -36,8 +36,8 @@ public class Robot extends TimedRobot {
   //Declarar motores
   CANSparkMax motorLeftFront = new CANSparkMax(10, MotorType.kBrushless);
   CANSparkMax motorFrontRight = new CANSparkMax(13, MotorType.kBrushless);
-  CANSparkMax motorBackLeft = new CANSparkMax(12, MotorType.kBrushless);
-  CANSparkMax motorBackRight = new CANSparkMax(14, MotorType.kBrushless);
+  CANSparkMax motorBackLeft = new CANSparkMax(11, MotorType.kBrushless);
+  CANSparkMax motorBackRight = new CANSparkMax(12, MotorType.kBrushless);
 
   //Declarar Encoders
   RelativeEncoder LeftEncoder = motorLeftFront.getEncoder();
