@@ -229,7 +229,7 @@ public class Robot extends TimedRobot {
     SmartDashboard.putString("My Age", palabra);
     SmartDashboard.putString("Robot Name", palabra);
     SmartDashboard.putString("PRUEBA", palabra);
-
+    SmartDashboard.putString("Similar", palabra);
 
   }
 
